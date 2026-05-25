@@ -38,19 +38,20 @@ The template includes the Plaksha logo from `images/plaksha.png`. Remove the `ti
 1. Create a new Overleaf project.
 2. Import this repository from GitHub or upload it as a ZIP.
 3. Set the compiler to **XeLaTeX**.
-4. Set the main document to:
+4. Set the TeX Live version to **2024**.
+5. Set the main document to:
 
 ```text
 src/resume.tex
 ```
 
-5. Recompile.
+6. Recompile.
 
 Keep the `fonts/`, `images/`, and `src/` folders in the same relative locations. The LaTeX file expects fonts and images one directory above `src/`.
 
 ## Compile Locally
 
-This project needs XeLaTeX because it uses `fontspec` and local font files.
+This project needs XeLaTeX because it uses `fontspec` and local font files. Use a 2024 TeX Live/XeLaTeX environment when available.
 
 ```bash
 cd src
